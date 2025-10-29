@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pets</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="wrapper">
+    <header id="banner">
+      <h1>Pets</h1>
+      <p>Everyone's best friends</p>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Dogs</a></li>
+          <li><a href="#">Cats</a></li>
+          <li><a href="#">Fish</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="flex-container"

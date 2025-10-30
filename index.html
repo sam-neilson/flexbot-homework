@@ -4,36 +4,57 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pets</title>
-  <link rel="stylesheet" href="style.css" type="style">
+  <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
-<header id="header">Everyone's best friends</header>
-<ul>
-<li>Home</li>
-<li>Dogs</li>
-<li>Cats</li>
-<li>Fish</li>
-</ul>
-<h1 class="links"><ol><strong>Quick Links for Fish</strong>
-<a><li>Fresh Water</li></a>
-<a><li>Salt Water</li></a>
-<a><li>About Fish</li></a>
-This page is about fish.</ol></h1>
-<p>
-<strong>This page is using display: </strong>
-<strong>flex to create the two-column sidebar in a fixed-width layout. To create this layout you need to add:</strong>
+  <div class="wrapper">
+    <header class="banner">
+      <h1>Pets</h1>
+      <p>Everyone's best friends</p>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Dogs</a></li>
+        <li><a href="#">Cats</a></li>
+        <li><a href="#">Fish</a></li>
+      </ul>
+    </header>
 
-All the proper layout ids (banner, menu, sidebar, colophon) added to their proper tags
-A div to create the livespace with the id of wrapper
-A div to create the "flex container" which encompasses the aside and the main as the two columns
-Set widths in sidebar and main that equal 100%, then us gap property in the flex container to create a space between them.
-You can learn more about setting up your aquarium, and whether fresh water or salt water fish are the best fit for you! Keep in mind that fresh water fish are easier to care for, which is important. Keeping fish healthy is a lot harder than you would think.
-</p>
-      <nav id="nav"> <ol> 
-<li>facebook</li>
-<li>instagram</li>
-<li>twitter</li>
-</nav></ol>
+    <div class="flex-container">
+      <aside class="sidebar">
+        <h2>Quick Links for Fish</h2>
+        <ul>
+          <li><a href="#">Fresh Water</a></li>
+          <li><a href="#">Salt Water</a></li>
+        </ul>
+      </aside>
 
+      <main class="main">
+        <h2>About Fish</h2>
+        <p>This page is about fish.</p>
+        <p>
+          This page is using display: flex to create the two-column sidebar in a fixed-width layout.
+          To create this layout you need to add:
+        </p>
+        <ul>
+          <li>A div to create the livespace with the id of wrapper</li>
+          <li>A div to create the "flex container" which encompasses the aside and the main</li>
+          <li>All the proper layout ids banner, sidebar, colophon added to their proper tags</li>
+        </ul>
+        <p>
+          You can learn more about setting up your aquarium, and whether fresh water or salt water fish are the best fit for you!
+          Keep in mind that fresh water fish are easier to care for, which is important.
+          Keeping fish healthy is a lot harder than you would think.
+        </p>
+      </main>
+    </div>
 
-    
+    <footer class="footer">
+      <ul>
+        <li><a href="#">facebook</a></li>
+        <li><a href="#">instagram</a></li>
+        <li><a href="#">twitter</a></li>
+      </ul>
+    </footer>
+  </div>
+</body>
+</html>

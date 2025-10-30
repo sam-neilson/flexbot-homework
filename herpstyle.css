@@ -5,71 +5,84 @@ body {
   padding: 0;
 }
 
-.wrapper {
+#wrapper {
   width: 80%;
   margin: 20px auto;
-  background-color: #8fbf8f;
+  background-color: #63c6c6;
 }
 
-.banner {
-  background-color: #8fbf8f;
+#banner {
+  background-color: #63c6c6;
   padding: 10px;
 }
 
-.banner h1 {
+#banner h1 {
   margin: 0;
   font-size: 1.8em;
+  color: #004400;
 }
 
-.banner p {
+#banner p {
   margin: 5px 0 10px 0;
 }
 
-.banner ul {
+#banner ul {
   list-style-type: disc;
   margin: 0;
   padding-left: 40px;
 }
 
-.flex-container {
+#flex-container {
   display: flex;
+  flex-direction: row;
   background-color: white;
   gap: 10px;
   padding: 10px;
 }
 
-.sidebar {
-  background-color: #5fa8a8;
+#main {
+  background-color: #b7c3e3;
+  width: 70%;
+  padding: 10px;
+}
+
+#main h2 {
+  margin-top: 0;
+  font-weight: bold;
+}
+
+#main p {
+  margin-bottom: 10px;
+}
+
+#main ul {
+  margin: 10px 0;
+  padding-left: 30px;
+}
+
+#sidebar {
+  background-color: #b8eae8;
   width: 30%;
   padding: 10px;
 }
 
-.sidebar h2 {
+#sidebar h2 {
   margin-top: 0;
+  font-weight: bold;
 }
 
-.sidebar ul {
+#sidebar ul {
   list-style-type: disc;
   margin: 0;
   padding-left: 20px;
 }
 
-.main {
-  background-color: #8ef58e;
-  width: 70%;
+#colophon {
+  background-color: #89c2f7;
   padding: 10px;
 }
 
-.main h2 {
-  margin-top: 0;
-}
-
-.footer {
-  background-color: #8fbf8f;
-  padding: 10px;
-}
-
-.footer ul {
+#colophon ul {
   list-style-type: disc;
   padding-left: 40px;
   margin: 0;
@@ -80,6 +93,3 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  text-decoration: underline;
-}

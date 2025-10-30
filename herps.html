@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pets</title>
+  <link rel="stylesheet" href="herpstyle.css">
+</head>
+<body>
+  <div id="wrapper">
+    <header id="banner">
+      <h1>Pets</h1>
+      <p>Everyone's best friends</p>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Dogs</a></li>
+        <li><a href="#">Cats</a></li>
+        <li><a href="#">Fish</a></li>
+      </ul>
+    </header>
+
+    <div id="flex-container">
+      <main id="main">
+        <h2>About Herps</h2>
+        <p>This page is about herps.</p>
+        <p>
+          This page is using <code>display: flex</code> to create the two-column sidebar in a fixed-width layout.
+          To create this layout you need to add:
+        </p>
+        <ul>
+          <li>A <code>div</code> to create the livespace with the id of <code>wrapper</code></li>
+          <li>A <code>div</code> to create the "flex container" which encompasses the <code>aside</code> and the <code>main</code></li>
+          <li>All the proper layout ids (<code>banner</code>, <code>sidebar</code>, <code>colophon</code>) added to their proper tags</li>
+        </ul>
+        <p><strong>Important!</strong> If you want the sidebar on the right, you can just change the 
+          <code>flex-direction</code> in your flexbox to reverse the order in CSS.
+          No need to change the order in your markup.
+        </p>
+        <p>
+          Herps, or reptiles and amphibians, can make fun and engaging pets. Learn more about them here!
+        </p>
+      </main>
+
+      <aside id="sidebar">
+        <h2>Quick Links for Herps</h2>
+        <ul>
+          <li><a href="#">Snakes</a></li>
+          <li><a href="#">Lizards</a></li>
+          <li><a href="#">Turtles</a></li>
+        </ul>
+      </aside>
+    </div>
+
+    <footer id="colophon">
+      <ul>
+        <li><a href="#">facebook</a></li>
+        <li><a href="#">instagram</a></li>
+        <li><a href="#">twitter</a></li>
+        <li><a href="index.html">Fish</a></li>
+      </ul>
+    </footer>
+  </div>
+</body>
+</html>
